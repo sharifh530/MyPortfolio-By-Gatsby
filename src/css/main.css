@@ -429,6 +429,9 @@ Hero
 }
 .hero-img {
   display: none;
+  height: 500px;
+  width: 500px;
+  margin-left: 120px;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
