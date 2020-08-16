@@ -432,6 +432,8 @@ Hero
   height: 500px;
   width: 500px;
   margin-left: 120px;
+  border: 35px solid transparent;
+  border-radius: 3rem;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
