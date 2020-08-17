@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
 =============== 
@@ -432,8 +432,9 @@ Hero
   height: 500px;
   width: 500px;
   margin-left: 120px;
-  border: 35px solid transparent;
-  border-radius: 3rem;
+  border: 50px solid transparent;
+  border-radius: 50%;
+  filter: contrast(110%);
 }
 .hero-info h4 {
   color: var(--clr-grey-5);

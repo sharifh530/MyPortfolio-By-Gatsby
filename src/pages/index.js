@@ -11,6 +11,7 @@ export default () => {
     <Layout>
       <Intro />
       <Services />
+      <Jobs />
     </Layout>
   )
 }
