@@ -4,10 +4,10 @@ import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{ backgroundColor: "hsl(210, 36%, 96%)" }}>
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} alt={logo} style={{ paddingTop: "15px" }} />
+          <img src={logo} alt={logo} style={{ paddingTop: "5px" }} />
           <button type="button" className="toggle-btn">
             <FaAlignRight></FaAlignRight>
           </button>

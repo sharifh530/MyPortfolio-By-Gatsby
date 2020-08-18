@@ -221,7 +221,7 @@ Navbar
 }
 .nav-center {
   width: 90vw;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .nav-header {
@@ -266,7 +266,7 @@ Navbar
     padding: 0.5rem 0;
   }
   .nav-links a:hover {
-    color: var(--clr-primary-5);
+    color: whitesmoke;
     box-shadow: 0px 2px var(--clr-primary-5);
   }
   .nav-center {
@@ -407,8 +407,7 @@ Hero
 */
 /* underline added to globals */
 .hero {
-  margin-top: -5rem;
-  padding-top: 5rem;
+  margin-top: -6rem;
   height: 100vh;
   background: var(--clr-primary-10);
   position: relative;
